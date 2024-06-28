@@ -9,6 +9,6 @@
     </MappedFolder>
  </MappedFolders>
 <LogonCommand>
-    <Command>powershell -executionpolicy unrestricted -command "start powershell {-file c:\sandbox\BurpSandboxConfig.ps1}"</Command>
+    <Command>powershell -executionpolicy unrestricted -command "start powershell {-file c:\sandbox\webapp\WebAppSandboxConfig.ps1}"</Command>
 </LogonCommand>
 </Configuration>
