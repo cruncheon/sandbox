@@ -22,5 +22,8 @@ New-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows" -Name "Explorer" -For
 New-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer" -Name "DisableNotificationCenter" -PropertyType "DWord" -Value 1 -Force
 New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\PushNotifications" -Name "ToastEnabled" -PropertyType "DWord" -Value 0 -Force
 
+# Disable Copilot on Taskbar
+New-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot" -Name "TurnOffWindowsCopilot" -PropertyType "DWord" -Value 1 -Force
+
 # Restart Explorer
 Get-Process explorer | Stop-Process -Force 
