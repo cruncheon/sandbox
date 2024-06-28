@@ -29,3 +29,10 @@ Setups tools and environment for Web Application Penetration Testing
 
 #### Tools
 - Burp Suite
+
+
+### DFIR Sandbox
+Environment for DFIR
+
+#### Tools
+- Autopsy
