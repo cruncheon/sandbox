@@ -1,4 +1,4 @@
-$BurpSrc = "https://portswigger-cdn.net/burp/releases/download?product=community&version=2024.2.1.5&type=WindowsX64"
+$BurpSrc = "https://portswigger-cdn.net/burp/releases/download?product=community&version=2024.6&type=WindowsX64"
 $BurpDest = Join-Path -path $env:temp -child 'BurpInstaller.exe'
 
 # Download Burp Suite
